@@ -8,10 +8,10 @@ import { CiHeart } from 'react-icons/ci';
 
 const OnSale = () => {
 	return (
-		<div className='mx-16'>
+		<div className='mx-3 md:mx-16'>
 			<div className='mt-16'>
 				<div>
-					<p className='text-2xl font-bold ml-10'>On Sale</p>
+					<p className='text-2xl font-bold md:ml-10 ml-3'>On Sale</p>
 				</div>
 
 				<div className='flex flex-col items-center justify-center'>
@@ -52,7 +52,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden '>
 							<img
 								className='w-32'
 								src={item3}
@@ -70,7 +70,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden '>
 							<img
 								className='w-32'
 								src={item4}
@@ -88,7 +88,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden  '>
 							<img
 								className='w-32'
 								src={item5}
@@ -106,7 +106,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden  '>
 							<img
 								className='w-32'
 								src={item6}
@@ -124,6 +124,10 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 					</div>
+
+					{/* <button className='mt-10  px-6 py-3 border-2 border-lightLemon font-bold '>
+						VIEW ALL
+					</button> */}
 				</div>
 			</div>
 		</div>

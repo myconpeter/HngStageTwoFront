@@ -8,10 +8,12 @@ import { CiHeart } from 'react-icons/ci';
 
 const BestSellers = () => {
 	return (
-		<div className='mx-16'>
+		<div className='mx-3 md:mx-16'>
 			<div className='mt-16'>
 				<div>
-					<p className='text-2xl font-bold ml-10'>Best Sellers</p>
+					<p className='text-2xl font-bold md:ml-10 ml-3'>
+						Best Sellers
+					</p>
 				</div>
 
 				<div className='flex flex-col items-center justify-center'>
@@ -52,7 +54,7 @@ const BestSellers = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden '>
 							<img
 								className='w-32'
 								src={item3}
@@ -70,7 +72,7 @@ const BestSellers = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden '>
 							<img
 								className='w-32'
 								src={item4}
@@ -88,7 +90,7 @@ const BestSellers = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden  '>
 							<img
 								className='w-32'
 								src={item5}
@@ -106,7 +108,7 @@ const BestSellers = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden  '>
 							<img
 								className='w-32'
 								src={item6}

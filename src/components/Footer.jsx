@@ -5,8 +5,8 @@ import { FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
 	return (
-		<div className='mt-10 bg-lightLemon h-80'>
-			<div className='flex my-10 mx-4 h-80 '>
+		<div className='mt-10 bg-lightLemon md:h-80 h-[1300px]'>
+			<div className='md:flex md:flex-row flex-col my-20  md:my-10 mx-4 h-80 '>
 				<div className='w-1/4 h-full  flex flex-col justify-center'>
 					<div className=' w-16 border-2 border-dashed border-normalGreen flex flex-col justify-center items-center'>
 						<h1 className='text-[14px]'>Shapel</h1>
@@ -19,14 +19,14 @@ const Footer = () => {
 					</div>
 
 					<div className='mt-10 flex gap-5'>
-						<FaFacebook className='text-blue-900' />
-						<RiTwitterXFill />
-						<FaSquareInstagram className='text-pink-700' />
-						<FaYoutube className='text-red-800' />
+						<FaFacebook className='text-blue-900 text-3xl' />
+						<RiTwitterXFill className='text-3xl' />
+						<FaSquareInstagram className='text-pink-700 text-3xl' />
+						<FaYoutube className='text-red-800 text-3xl' />
 					</div>
 				</div>
 
-				<div className='w-1/4 h-full flex flex-col justify-center '>
+				<div className='w-full md:w-1/4  h-full flex flex-col justify-center '>
 					<p className='font-bold text-xl mb-6'>INFORMATION</p>
 
 					<div className='flex flex-col gap-4'>
@@ -40,7 +40,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className='w-1/4 h-full flex flex-col justify-center '>
+				<div className=' w-full md:w-1/4 h-full flex flex-col justify-center '>
 					<p className='font-bold text-xl mb-6'>OUR SERVICE</p>
 
 					<div className='flex flex-col gap-4'>
@@ -52,7 +52,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className='w-1/4 h-full flex flex-col justify-center '>
+				<div className='w-full md:w-1/4 h-full flex flex-col justify-center '>
 					<p className='font-bold text-xl mb-6'>MY ACCOUNT</p>
 
 					<div className='flex flex-col gap-4'>
