@@ -1,10 +1,11 @@
 import { CiUser } from 'react-icons/ci';
 import { CiHeart } from 'react-icons/ci';
 import { IoCartSharp } from 'react-icons/io5';
+import ItemList from './ItemList';
 
 const Navbar = () => {
 	return (
-		<div className=' bg-lightGray'>
+		<div className=' bg-white'>
 			<div className='flex p-6 w-screen'>
 				<div className='w-1/3 relative'>
 					<input
@@ -30,20 +31,25 @@ const Navbar = () => {
 				</div>
 
 				<div className='w-1/3 flex justify-center items-center'>
-					<div>
-						<h1>Shapel</h1>
+					<div className=' border-2 border-dashed border-normalGreen flex flex-col justify-center items-center'>
+						<h1 className='text-2xl'>Shapel</h1>
+						<p className=' text-xs'>Beauty Shop</p>
 					</div>
 				</div>
 
 				<div className=' w-1/3 flex justify-end items-center'>
-					<div className='flex justify-end gap-5 '>
+					<div className='flex justify-end items-center gap-5 '>
 						<CiUser className='text-2xl font-bold' />
 						<CiHeart className='text-2xl font-bold' />
 						<IoCartSharp className='text-2xl font-bold' />
-						<p className='p-1 bg-lightGreen rounded-full'> 0</p>
+						<div className='px-2 py-1 bg-lightGreen rounded-full font-bold'>
+							o
+						</div>
 					</div>
 				</div>
 			</div>
+
+			{<ItemList />}
 		</div>
 	);
 };
