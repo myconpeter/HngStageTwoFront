@@ -7,7 +7,7 @@ const Footer = () => {
 	return (
 		<div className='mt-10 bg-lightLemon md:h-80 h-[1300px]'>
 			<div className='md:flex md:flex-row flex-col my-20  md:my-10 mx-4 h-80 '>
-				<div className='w-1/4 h-full  flex flex-col justify-center'>
+				<div className='w-full md:w-1/4 h-full  flex flex-col justify-center'>
 					<div className=' w-16 border-2 border-dashed border-normalGreen flex flex-col justify-center items-center'>
 						<h1 className='text-[14px]'>Shapel</h1>
 						<p className=' text-[10px]'>Beauty Shop</p>
@@ -18,7 +18,7 @@ const Footer = () => {
 						<p>get the new updates</p>
 					</div>
 
-					<div className='mt-10 flex gap-5'>
+					<div className='mt-10 flex gap-4'>
 						<FaFacebook className='text-blue-900 text-3xl' />
 						<RiTwitterXFill className='text-3xl' />
 						<FaSquareInstagram className='text-pink-700 text-3xl' />
@@ -26,7 +26,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className='w-full md:w-1/4  h-full flex flex-col justify-center '>
+				<div className='w-full md:w-1/4  h-36 md:h-full flex flex-col justify-center '>
 					<p className='font-bold text-xl mb-6'>INFORMATION</p>
 
 					<div className='flex flex-col gap-4'>
@@ -40,7 +40,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className=' w-full md:w-1/4 h-full flex flex-col justify-center '>
+				<div className=' w-full md:w-1/4 h-36 md:h-full flex flex-col justify-center mt-10  md:mt-0'>
 					<p className='font-bold text-xl mb-6'>OUR SERVICE</p>
 
 					<div className='flex flex-col gap-4'>
@@ -52,7 +52,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className='w-full md:w-1/4 h-full flex flex-col justify-center '>
+				<div className='w-full md:w-1/4 h-36 md:h-full flex flex-col justify-center mt-10 md:mt-0 '>
 					<p className='font-bold text-xl mb-6'>MY ACCOUNT</p>
 
 					<div className='flex flex-col gap-4'>
