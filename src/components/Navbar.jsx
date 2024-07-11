@@ -6,7 +6,7 @@ import ItemList from './ItemList';
 const Navbar = () => {
 	return (
 		<div className=' bg-white'>
-			<div className='flex p-6 w-screen'>
+			<div className='flex p-6 w-[100%]'>
 				<div className='w-1/3 relative'>
 					<input
 						className='w-2/3 p-2 rounded-3xl pl-2'

@@ -1,15 +1,16 @@
 import HeroImg from '../assets/Hero.png';
+import HeroI from '../assets/Hero.svg';
 
 const Hero = () => {
 	return (
-		<div className='mt-8 w-screen'>
-			<div className=' relative flex mx-8  items-center'>
+		<div className='mt-8 w-[100%]'>
+			<div className=' relative flex items-center mx-8'>
 				<img
-					src={HeroImg}
+					src={HeroI}
 					alt='hero'
-					className='h-96 w-screen'
+					className='h-96 w-[100%] '
 				/>
-				<div className=' ml-4  flex flex-col justify-start absolute w-1/3'>
+				<div className=' ml-24  flex flex-col justify-start absolute w-1/3'>
 					<p className='text-4xl  font-bold font-serif'>Your Daily</p>
 					<p className='text-4xl  font-bold font-serif'>
 						Dose Of Glow
