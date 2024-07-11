@@ -38,9 +38,9 @@ const FooterHero = () => {
 					<p className='md:text-4xl  font-bold font-serif'>
 						Chemical Peeling
 					</p>
-					<p className='text-4xl  font-bold font-serif'>Today!</p>
+					<p className='md:text-4xl  font-bold font-serif'>Today!</p>
 
-					<p className='text-xl mt-3'>
+					<p className='md:text-xl text-xs mt-3'>
 						Offer valid from july 2nd - July 9th
 					</p>
 					<button className='text-xs px-0 w-2/4 py-3 mt-8 bg-normalGreen font-bold rounded-xl'>

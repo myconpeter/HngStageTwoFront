@@ -5,7 +5,7 @@ import shop4 from '../../assets/shop4.png';
 
 const ShopNow = () => {
 	return (
-		<div className='mt-10 mx-8'>
+		<div className='mt-10 mx-4 md:mx-8'>
 			<div className='md:mx-16 md:gap-3 md:flex md:flex-row flex-col space-y-4'>
 				<div className='relative w-[320px]'>
 					<img
