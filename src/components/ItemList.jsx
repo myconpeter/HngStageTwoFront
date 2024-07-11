@@ -3,8 +3,8 @@ import React from 'react';
 const ItemList = () => {
 	return (
 		<div>
-			<div>
-				<ul className='flex border-t-2 border-lightGray border-b-2 p-2 items-center justify-evenly font-semibold'>
+			<div className=''>
+				<ul className='hidden md:flex md:border-t-2 md:border-lightGray md:border-b-2 md:p-2 md:items-center md:justify-evenly md:font-semibold'>
 					<li>Brands</li>
 					<li>Home</li>
 					<li>Gift cards</li>

@@ -13,6 +13,14 @@ export default {
 				containerColor: '#E8EAEE',
 			},
 		},
+
+		screens: {
+			sm: '640px',
+			// => @media (min-width: 640px) { ... }
+
+			md: '950px',
+			// => @media (min-width: 768px) { ... }
+		},
 	},
 	plugins: [],
 };

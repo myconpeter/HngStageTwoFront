@@ -2,19 +2,23 @@ import { CiUser } from 'react-icons/ci';
 import { CiHeart } from 'react-icons/ci';
 import { IoCartSharp } from 'react-icons/io5';
 import ItemList from './ItemList';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
 	return (
 		<div className=' bg-white'>
-			<div className='flex p-6 w-[100%]'>
-				<div className='w-1/3 relative'>
+			<div className='flex md:p-6 w-[100%] justify-evenly items-center'>
+				<GiHamburgerMenu className='text-xl md:hidden' />
+
+				<div className='md:w-1/3 md:relative w-[10px]'>
 					<input
-						className='w-2/3 p-2 rounded-3xl pl-2'
+						className='md:w-2/3 md:p-2 md:rounded-3xl md:pl-2 hidden md:block'
 						type='search'
 						placeholder='Find your Product'
 					/>
+
 					<svg
-						className='absolute left-72 top-1/2 transform -translate-y-1/2 text-gray-500'
+						className='md:absolute md:left-72 md:top-1/2 md:transform md:-translate-y-1/2 md:text-gray-500'
 						xmlns='http://www.w3.org/2000/svg'
 						fill='none'
 						viewBox='0 0 24 24'
@@ -30,8 +34,8 @@ const Navbar = () => {
 					</svg>
 				</div>
 
-				<div className='w-1/3 flex justify-center items-center'>
-					<div className=' border-2 border-dashed border-normalGreen flex flex-col justify-center items-center'>
+				<div className='md:w-1/3 md:flex md:justify-center  md:items-center flex'>
+					<div className=' border-2  border-normalGreen flex flex-col justify-center items-center'>
 						<h1 className='text-2xl'>Shapel</h1>
 						<p className=' text-xs'>Beauty Shop</p>
 					</div>
@@ -40,7 +44,7 @@ const Navbar = () => {
 				<div className=' w-1/3 flex justify-end items-center'>
 					<div className='flex justify-end items-center gap-5 '>
 						<CiUser className='text-2xl font-bold' />
-						<CiHeart className='text-2xl font-bold' />
+						<CiHeart className='md:text-2xl md:font-bold hidden' />
 						<IoCartSharp className='text-2xl font-bold' />
 						<div className='px-2 py-1 bg-lightGreen rounded-full font-bold'>
 							o
