@@ -16,7 +16,7 @@ const OnSale = () => {
 
 				<div className='flex flex-col items-center justify-center'>
 					<div className=' flex gap-5 mt-4 justify-center items-center'>
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='relative border-2 border-lightLemon flex flex-col items-center bg-white '>
 							<img
 								className='w-32'
 								src={item1}
@@ -34,7 +34,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='relative border-2 border-lightLemon flex flex-col items-center '>
+						<div className='relative border-2 border-lightLemon flex flex-col items-center  bg-white'>
 							<img
 								className='w-32'
 								src={item2}
@@ -52,7 +52,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden bg-white '>
 							<img
 								className='w-32'
 								src={item3}
@@ -70,7 +70,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden bg-white '>
 							<img
 								className='w-32'
 								src={item4}
@@ -88,7 +88,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden  '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden bg-white '>
 							<img
 								className='w-32'
 								src={item5}
@@ -106,7 +106,7 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 
-						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden  '>
+						<div className='md:relative border-2 border-lightLemon md:flex flex-col items-center hidden bg-white '>
 							<img
 								className='w-32'
 								src={item6}
@@ -124,10 +124,6 @@ const OnSale = () => {
 							<p className='font-bold mt-4'>₦25,000</p>
 						</div>
 					</div>
-
-					{/* <button className='mt-10  px-6 py-3 border-2 border-lightLemon font-bold '>
-						VIEW ALL
-					</button> */}
 				</div>
 			</div>
 		</div>

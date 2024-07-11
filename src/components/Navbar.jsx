@@ -44,7 +44,7 @@ const Navbar = () => {
 				<div className=' w-1/3 flex justify-end items-center'>
 					<div className='flex justify-end items-center gap-5 '>
 						<CiUser className='text-2xl font-bold' />
-						<CiHeart className='md:text-2xl md:font-bold hidden' />
+						<CiHeart className='md:text-2xl md:font-bold hidden md:flex' />
 						<IoCartSharp className='text-2xl font-bold' />
 						<div className='px-2 py-1 bg-lightGreen rounded-full font-bold'>
 							o
